@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.list2 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.list__item {
+    width: 300px;
+    height: 470px;
+    box-shadow: 0 0 30px 10px #eee;
+    text-align: center;
+    border-radius: 8px;
+
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+.list__item2 {
+    width: 310px;
+    height: 470px;
+    box-shadow: 0 0 30px 10px #eee;
+    text-align: center;
+    border-radius: 8px;
+
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+.text {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.title {
+    text-align: center;
+}
